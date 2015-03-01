@@ -7,9 +7,9 @@ INSTALLDIR = tmpmod
 #invoking kernel's Makefile
 #----------------------------------------------------------------
 ifneq (${KERNELRELEASE},)
-	obj-m := dummy.o
+	obj-m := hw.o
 
-	dummy-objs := module.o
+	hw-objs := hello_world.o
 #----------------------------------------------------------------
 else
 # KERNELRELEASE is not empty do this 
@@ -26,6 +26,7 @@ clean:
 	@rm -rf ${INSTALLDIR}
 	@rm *.order
 	@rm *.symvers
+	@rm *.tmp_versions
 #----------------------------------------------------------------
 
 endif
