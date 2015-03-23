@@ -1,2 +1,2 @@
 # lddgeek
-project  which  is a geeks attempt to learn device drivers from scratch
+project,  which  is a geek's attempt to learn device drivers from scratch, lets see will he succeed :) ??
